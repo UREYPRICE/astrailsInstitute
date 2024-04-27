@@ -13,6 +13,7 @@ const Nav = () => {
                 <li><a href="/contact">BLOG</a></li>
                 <li><a href="/contact">SHOP</a></li>
                 <li><a href="/contact">CONTACT</a></li>
+                
 
             </ul>
 
