@@ -1,0 +1,26 @@
+
+
+.introDiv {
+position: absolute;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 55px 10px 0 10px;
+    text-align: center;
+    gap: 15px;
+
+}
+
+
+.introDiv > h2 {
+    font-family: 'Fake';
+    font-weight: 200;
+}
+
+.introDiv > p {
+    flex-wrap: wrap;
+    font-size: 15px;
+    line-height: 1.4em;
+}
