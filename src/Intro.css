@@ -1,4 +1,12 @@
+@font-face {
+    font-family: 'sacramento';
+    src: url('./fonts/Sacramento.ttf') format('truetype');
+}
 
+@font-face {
+    font-family : 'jost';
+    src: url('./fonts/Jost.ttf') format('truetype');
+}
 
 .introDiv {
 position: absolute;
@@ -15,12 +23,20 @@ position: absolute;
 
 
 .introDiv > h2 {
-    font-family: 'Fake';
-    font-weight: 200;
+    font-family: 'sacramento';
+    font-weight: 600;
 }
 
 .introDiv > p {
     flex-wrap: wrap;
     font-size: 15px;
     line-height: 1.4em;
+    font-family: 'jost';
+}
+
+.introDiv > h1 {
+
+    font-size: 44px;
+    font-family: jost;
+    font-weight: 400;
 }
