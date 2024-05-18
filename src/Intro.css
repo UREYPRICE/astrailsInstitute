@@ -40,3 +40,26 @@ position: absolute;
     font-family: jost;
     font-weight: 400;
 }
+
+.buttonDiv {
+    margin-top: 60px;
+}
+
+.buttonDiv > a {
+    padding: 20px 30px 20px 30px;
+        font-size: 19px;
+        font-weight: 500;
+        text-transform: none;
+        line-height: 2em;
+        letter-spacing: -0.6px;
+        word-spacing: 0.1em;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #44444496;
+        border-style: solid;
+        border-width: 1px 1px 1px 1px;
+        border-color: #FFFFFF70;
+        border-radius: 44px 44px 44px 44px;
+        box-shadow: 7px 16px 21px 0px rgba(0, 0, 0, 0.3);
+        text-decoration: none;
+}

@@ -9,6 +9,15 @@ const Intro = () => {
     <h1 >Let Go of Your Fears</h1>
     <p> Discover the simple 3 Steps that I Discovered to Hack Productivity. It Workds 100%. Wanna transform your life?</p>
 
+    <div className="buttonDiv">
+
+    <a href="http://" target="_blank" rel="noopener noreferrer">
+
+
+        <span>Get Your Free Guide Now!</span>
+
+    </a>
+    </div>
 
     </div>
     );
