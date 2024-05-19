@@ -19,10 +19,10 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
     <div>
 
 <div className="bgcontaier">
-{bgvidDisplay && <video src={bgvid} autoPlay muted loop></video>}
+{/* {bgvidDisplay && <video src={bgvid} autoPlay muted loop></video>} 
 
 
-{bgvidDisplay &&<div class="backgroundOverlay"></div>}
+{/* {bgvidDisplay &&<div class="backgroundOverlay"></div>} */}
 
 <header>
 
