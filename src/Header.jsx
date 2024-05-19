@@ -3,8 +3,8 @@ import './Header.css';
 import './Nav.css';
 import bgvid from './assets/Freedom.mp4'
 
-const Header = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+const Header = ({ isMenuOpen, setIsMenuOpen }) => {
+  
 
   const handleButtonClick = () => {
     setIsMenuOpen(!isMenuOpen);

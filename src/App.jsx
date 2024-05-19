@@ -5,12 +5,12 @@ import Intro from './Intro'
 
 const App = () => {
 
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 return (
   <div>
-     < Header/>
-     <Intro/>
+   <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      <Intro isMenuOpen={isMenuOpen} />
   </div>
 
  
