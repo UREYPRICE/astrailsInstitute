@@ -1,5 +1,5 @@
-import  './Header.css';
 
+import './about.css'
 
 const About = ()=> {
 
@@ -7,8 +7,9 @@ const About = ()=> {
 return(
 
 <div className="about">
-<h1>About Us</h1>
+<h2>-About Us</h2>
 
+<h1>I help people to discover their true potential</h1>
 </div>
 
 

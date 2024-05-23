@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'sacramento';
+    src: url('./fonts/Sacramento.ttf') format('truetype');
+}
+
+@font-face {
+    font-family : 'jost';
+    src: url('./fonts/Jost.ttf') format('truetype');
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    flex-wrap: wrap;
+    gap: 20px
+
+}
+
+.about > h2 {
+    font-family: 'sacramento';
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.about > h1 {
+    font-family: 'jost';
+    font-weight: 400;
+    font-size: 42px;
+    letter-spacing: -2.3px;
+    line-height: 0.94em;
+}
