@@ -39,3 +39,43 @@
     border-radius: 32px 32px 32px 32px;
     box-shadow: 34px -34px 0px 0px rgba(0, 0, 0, 0.05);
 }
+
+.aboutImageExp {
+    display: flex;
+  
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: column-reverse;
+
+    background-color: #433D4E;
+    border-radius: 50px 50px 50px 50px;
+    padding: 20px;
+    text-align: center;
+    max-width: min-content;
+}
+.aboutImageExpTextNumber{
+font-size: 32px;
+color: aliceblue;
+font-family: 'jost';
+}
+
+.aboutImageExpText{
+    text-align: left;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-family: 'jost';
+}
+
+
+.aboutImageDiv{
+    position: relative;
+}
+
+
+.aboutImageExp {
+    position: absolute;
+    margin: -74px 0px 0px 86px;
+}
