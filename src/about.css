@@ -93,3 +93,11 @@ font-family: 'jost';
     color: #444444;
     line-height: 1.9em;
 }
+
+.aboutSecondPara > p {
+
+        font-family: 'jost';
+        font-size: 15px;
+        color: #444444;
+        line-height: 1.9em;
+}
