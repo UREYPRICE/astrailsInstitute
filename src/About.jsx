@@ -46,6 +46,24 @@ Don’t be too proud of this technological terror you’ve constructed. The abil
 </div>
 </div>
 
+<div className="AboutSeccontainer">
+    <div className="AboutSecBox">
+        <span className="AboutBoxSpanNum">500+</span>
+        <span className="AboutBoxSpanText">HAPPY CLIENTS</span>
+    </div>
+    <div className="AboutSecBox">
+        <span className="AboutBoxSpanNum">70</span>
+        <span className="AboutBoxSpanText">ONLINE COURSES</span>
+    </div>
+    <div className="AboutSecBox">
+        <span className="AboutBoxSpanNum">100%</span>
+        <span className="AboutBoxSpanText">SATISFACTION</span>
+    </div>
+    <div className="AboutSecBox">
+        <span className="AboutBoxSpanNum">100%</span>
+        <span className="AboutBoxSpanText">SUPPORT</span>
+    </div>
+</div>
 
 </>
 
