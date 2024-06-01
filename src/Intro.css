@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family : 'jost';
+    font-family: 'jost';
     src: url('./fonts/Jost.ttf') format('truetype');
 }
 
@@ -21,19 +21,19 @@
 }
 
 
-.introDiv > h2 {
+.introDiv>h2 {
     font-family: 'sacramento';
     font-weight: 600;
 }
 
-.introDiv > p {
+.introDiv>p {
     flex-wrap: wrap;
     font-size: 15px;
     line-height: 1.4em;
     font-family: 'jost';
 }
 
-.introDiv > h1 {
+.introDiv>h1 {
 
     font-size: 44px;
     font-family: jost;
@@ -42,31 +42,31 @@
 
 .buttonDiv {
     margin-top: 60px;
-    
-    
+
+
 }
 
-.buttonDiv > a {
+.buttonDiv>a {
     padding: 15px 25px 15px 25px;
-        font-size: 19px;
-        font-weight: 500;
-        text-transform: none;
-        line-height: 2em;
-        letter-spacing: -0.6px;
-        word-spacing: 0.1em;
-        fill: #FFFFFF;
-        color: #FFFFFF;
-        background-color: #44444496;
-        border-style: solid;
-        border-width: 1px 1px 1px 1px;
-        border-color: #FFFFFF70;
-        border-radius: 44px 44px 44px 44px;
-        box-shadow: 7px 16px 21px 0px rgba(0, 0, 0, 0.3);
-        text-decoration: none;
-        display: flex;
+    font-size: 19px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 2em;
+    letter-spacing: -0.6px;
+    word-spacing: 0.1em;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #44444496;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #FFFFFF70;
+    border-radius: 44px 44px 44px 44px;
+    box-shadow: 7px 16px 21px 0px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    display: flex;
 }
 
-.buttonText{
+.buttonText {
     font-size: 16px;
     font-family: 'Jost';
     font-weight: 400;
