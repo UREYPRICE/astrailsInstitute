@@ -47,6 +47,7 @@ Don’t be too proud of this technological terror you’ve constructed. The abil
 </div>
 
 <div className="AboutSeccontainer">
+<div className="AboutSecImageOverlay"></div>
     <div className="AboutSecBox">
         <span className="AboutBoxSpanNum">500+</span>
         <span className="AboutBoxSpanText">HAPPY CLIENTS</span>
@@ -60,6 +61,7 @@ Don’t be too proud of this technological terror you’ve constructed. The abil
         <span className="AboutBoxSpanText">SATISFACTION</span>
     </div>
     <div className="AboutSecBox">
+        
         <span className="AboutBoxSpanNum">100%</span>
         <span className="AboutBoxSpanText">SUPPORT</span>
     </div>
