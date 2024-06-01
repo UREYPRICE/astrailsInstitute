@@ -11,19 +11,19 @@ const App = () => {
 
   const firstPageBackground = isMenuOpen ? '' : 'firstPage';
 
-return (
+  return (
 
-  <>
-  
-  <div className={firstPageBackground}>
-   <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
-      <Intro isMenuOpen={isMenuOpen} />
-  </div>
-<About/>
-  </>
+    <>
+
+      <div className={firstPageBackground}>
+        <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+        <Intro isMenuOpen={isMenuOpen} />
+      </div>
+      <About />
+    </>
 
 
-)
+  )
 
 }
 
