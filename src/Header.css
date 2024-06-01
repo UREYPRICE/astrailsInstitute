@@ -5,7 +5,7 @@
   src: url('./fonts/FakeSerif.ttf') format('truetype');
 }
 
-header{
+header {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -19,35 +19,39 @@ header{
   margin-left: 30px;
   margin-top: 16px;
 }
-  
-.closeChange > div {
-background-color: #FFFFFF;
+
+.closeChange>div {
+  background-color: #FFFFFF;
 }
 
-  .bar1, .bar2, .bar3 {
-    width: 20px;
-    height: 2px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-  }
-  
-
-  
-  .change .bar2 {opacity: 0;}
-  
+.bar1,
+.bar2,
+.bar3 {
+  width: 20px;
+  height: 2px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
 
 
-  .change .bar1 {
-    transform: translateY(8px) rotate(45deg);
+
+.change .bar2 {
+  opacity: 0;
+}
+
+
+
+.change .bar1 {
+  transform: translateY(8px) rotate(45deg);
 }
 
 .change .bar3 {
-    transform: translateY(-8px) rotate(-45deg);
+  transform: translateY(-8px) rotate(-45deg);
 }
 
 .menuOffLogo {
-color: #FFFFFF;
+  color: #FFFFFF;
 
 }
 
@@ -63,9 +67,9 @@ color: #FFFFFF;
 .shopping-bag-menu-icon-div {
 
   width: 100%;
- display: flex;
- justify-content: flex-end;
- margin-right: 20px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
 }
 
 
@@ -84,19 +88,17 @@ video {
   border-radius: 0 0 70% 70% / 8%;
 }
 
-.closeChange {
-
-}
+.closeChange {}
 
 .backgroundOverlay {
   background-color: #1F201E91;
 
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
-   
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+
 
 }
 
@@ -104,4 +106,3 @@ video {
 
   background-color: #1F201E91;
 }
-
