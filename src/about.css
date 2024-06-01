@@ -1,31 +1,28 @@
-
-
 @font-face {
     font-family: 'sacramento';
     src: url('./fonts/Sacramento.ttf') format('truetype');
 }
 
 @font-face {
-    font-family : 'jost';
+    font-family: 'jost';
     src: url('./fonts/Jost.ttf') format('truetype');
 }
 
-.about{
+.about {
     display: flex;
     flex-direction: column;
     margin: 25px;
     flex-wrap: wrap;
     gap: 20px
-
 }
 
-.about > h2 {
+.about>h2 {
     font-family: 'sacramento';
     font-weight: 100;
     font-size: 24px;
 }
 
-.about > h1 {
+.about>h1 {
     font-family: 'jost';
     font-weight: 400;
     font-size: 42px;
@@ -42,7 +39,7 @@
 
 .aboutImageExp {
     display: flex;
-  
+
     justify-content: center;
     align-items: stretch;
     flex-direction: column-reverse;
@@ -53,13 +50,14 @@
     text-align: center;
     max-width: min-content;
 }
-.aboutImageExpTextNumber{
-font-size: 32px;
-color: aliceblue;
-font-family: 'jost';
+
+.aboutImageExpTextNumber {
+    font-size: 32px;
+    color: aliceblue;
+    font-family: 'jost';
 }
 
-.aboutImageExpText{
+.aboutImageExpText {
     text-align: left;
     color: rgba(255, 255, 255, 0.65);
     font-size: 11px;
@@ -70,7 +68,7 @@ font-family: 'jost';
 }
 
 
-.aboutImageDiv{
+.aboutImageDiv {
     position: relative;
 }
 
@@ -85,7 +83,7 @@ font-family: 'jost';
     margin-top: 30px;
 }
 
-.aboutPara > p {
+.aboutPara>p {
 
     font-family: 'jost';
     font-size: 15px;
@@ -94,15 +92,15 @@ font-family: 'jost';
     line-height: 1.9em;
 }
 
-.aboutSecondPara > p {
+.aboutSecondPara>p {
 
-        font-family: 'jost';
-        font-size: 15px;
-        color: #444444;
-        line-height: 1.9em;
+    font-family: 'jost';
+    font-size: 15px;
+    color: #444444;
+    line-height: 1.9em;
 }
 
-.aboutParaSign > h4 {
+.aboutParaSign>h4 {
     text-align: right;
     font-family: 'sacramento';
     font-weight: 400;
@@ -115,29 +113,31 @@ font-family: 'jost';
 
 .AboutSeccontainer {
     position: relative;
-        background-image: url(./assets/AboutSecImage.jpg);
-        background-position: center center;
-        background-size: cover;
-        width: 100%;
-        height: 60vh;
-        padding: 50px;
-  display : grid;
-grid-template-rows : auto auto ;
-  grid-template-columns : 1fr 1fr ;
-text-align: center;
-  gap: 20px;
-    }
-    .AboutSecBox {
-   
-      display: flex;
-      flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: 1;
-    }
+    background-image: url(./assets/AboutSecImage.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding: 50px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    gap: 20px;
+}
+
+.AboutSecBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
 .AboutBoxSpanNum {
-  text-align: center;
-      color: #FFFFFF00;
+    text-align: center;
+    color: #FFFFFF00;
     font-family: "Oswald", Sans-serif;
     font-size: 60px;
     font-weight: 100;
@@ -146,23 +146,23 @@ text-align: center;
     stroke-width: 1px;
     -webkit-text-stroke-color: #FFFFFF;
     stroke: #FFFFFF;
-  
+
 }
 
 .AboutBoxSpanText {
-        font-size: 10px;
+    font-size: 10px;
     letter-spacing: 2px;
-  color: white;
-  padding-bottom: 10px;
+    color: white;
+    padding-bottom: 10px;
 
 
 }
 
-.AboutSecImageOverlay{
-position: absolute;
-top: 0;
-bottom: 0;
-width: 100%;
-background-color: #18241C;
-opacity: 0.6;
+.AboutSecImageOverlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #18241C;
+    opacity: 0.6;
 }
