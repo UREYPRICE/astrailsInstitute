@@ -40,7 +40,10 @@ Don’t be too proud of this technological terror you’ve constructed. The abil
 <div className="aboutSecondPara">
     <p>Don’t be too proud of this technological terror you’ve constructed. The ability to destroy a planet is insignificant next to the power of the Force. I find your lack of faith disturbing. Kid, I’ve flown from one side of this galaxy to the other. I’ve seen a lot of strange stuff, but I’ve never seen anything to make me believe there’s one all-powerful Force controlling everything.</p>
 </div>
+<div className="aboutParaSign">
+<h4>Ahmed Waqas</h4>
 
+</div>
 </div>
 
 
