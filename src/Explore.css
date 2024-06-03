@@ -1,0 +1,9 @@
+.ExploreContainer {
+    background-image: url('./assets/exploreImage.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
