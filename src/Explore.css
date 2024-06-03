@@ -1,4 +1,5 @@
 .ExploreContainer {
+    position: relative;
     background-image: url('./assets/exploreImage.png');
     background-position: center;
     background-size: cover;
@@ -6,4 +7,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
+}
+
+.ExploreOverlay {
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+background-color: #6BB0FF;
+opacity: 0.79;
+
+}
+.ExploreContainer  h2,
+.ExploreContainer  h1,
+.ExploreContainer  p
+{
+    z-index: 1;
 }
