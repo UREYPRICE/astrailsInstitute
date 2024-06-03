@@ -1,8 +1,8 @@
 import './Explore.css'
 
 
-const Explore = ()=> {
-    return(
+const Explore = () => {
+    return (
         <h1>ello ello</h1>
     )
 }
