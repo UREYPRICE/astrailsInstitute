@@ -9,6 +9,7 @@ const Explore = () => {
         <p>We can Help you in these particular areas.</p>
         <section></section>
         <article></article>
+        <nav></nav>
         </div>
         
     )
