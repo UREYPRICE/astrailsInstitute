@@ -5,8 +5,8 @@ const Explore = () => {
     return (
         <div>
             <h2>Explore</h2>
-        <h1></h1>
-        <p></p>
+        <h1>Services We Provide For Our Clients</h1>
+        <p>We can Help you in these particular areas.</p>
         </div>
         
     )
