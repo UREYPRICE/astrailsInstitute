@@ -24,4 +24,5 @@ opacity: 0.79;
 .ExploreContainer  p
 {
     z-index: 1;
+    align-items: center;
 }
