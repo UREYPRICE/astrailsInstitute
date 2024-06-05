@@ -25,4 +25,5 @@ opacity: 0.79;
 {
     z-index: 1;
     align-items: center;
+    display: flex;
 }
