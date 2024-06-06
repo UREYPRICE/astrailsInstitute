@@ -45,3 +45,11 @@ opacity: 0.79;
     text-align: center;
     color: #222222;
 }
+
+.ExploreContainer  p{
+    font-family: 'jost';
+    font-size: 15px;
+    line-height: 1;
+    color: #00000072;
+    padding-bottom: 16px;
+}
