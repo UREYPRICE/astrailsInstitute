@@ -12,8 +12,13 @@ const Explore = () => {
 <div className="cardsContainer">
 
 <div className="card">
+<h3>
+    1:1 Coaching
+</h3>
 
-    
+<span>-</span>
+<p> Remember, a Jedi can feel the Force flowing through him. I'm surprised you had the courage to take the responsibility yourself.</p>
+
 </div>
 
 
