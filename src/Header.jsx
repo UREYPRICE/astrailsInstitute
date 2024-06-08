@@ -10,7 +10,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
     setIsMenuOpen(!isMenuOpen);
   }
 
-  // Determine the class based on the state of isMenuOpen
+  // Determine the className based on the state of isMenuOpen
   const containerClass = isMenuOpen ? 'container change' : 'container closeChange';
   const bgvidDisplay = isMenuOpen ? false : true;
   const menuOffLogo = isMenuOpen ? '' : 'menuOffLogo';
@@ -22,7 +22,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
         {/* {bgvidDisplay && <video src={bgvid} autoPlay muted loop></video>} 
 
 
-{/* {bgvidDisplay &&<div class="backgroundOverlay"></div>} */}
+{/* {bgvidDisplay &&<div className="backgroundOverlay"></div>} */}
 
         <header>
 
