@@ -29,8 +29,12 @@ const Explore = () => {
 
 
                             </div>
-                            <div className="back">
 
+
+                        
+
+                            <div className="back">
+                            <div className="backOverLay"></div>
                                 <h3>
                                     1:1 Coaching
                                 </h3>
