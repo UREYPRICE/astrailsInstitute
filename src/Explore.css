@@ -1,70 +1,67 @@
 .ExploreContainer {
-    position: relative;
-    background-image: url('./assets/exploreImage.png');
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   overflow: hidden;
+  position: relative;
+  background-image: url('./assets/exploreImage.png');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 .ExploreOverlay {
-position: absolute;
-top: 0;
-bottom: 0;
-width: 100%;
-background-color: #6BB0FF;
-opacity: 0.79;
-
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #6bb0ff;
+  opacity: 0.79;
 }
-.ExploreContainer  h2,
-.ExploreContainer  h1,
-.ExploreContainer  p
-{
-    z-index: 1;
-
+.ExploreContainer h2,
+.ExploreContainer h1,
+.ExploreContainer p {
+  z-index: 1;
 }
 
 .ExploreContainer h2 {
-    font-size: 24px;
-    font-weight: 400;
-    font-family: 'sacramento';
-    margin-top: 50px;
-    color: #222222;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'sacramento';
+  margin-top: 50px;
+  color: #222222;
 }
 
-.ExploreContainer  h1{
-    font-size: 42px;
-    letter-spacing: -2.3px;
-    line-height: 0.94em;
-    font-family: 'jost';
-    font-weight: 400;
-    padding: 16px;
-    text-align: center;
-    color: #222222;
+.ExploreContainer h1 {
+  font-size: 42px;
+  letter-spacing: -2.3px;
+  line-height: 0.94em;
+  font-family: 'jost';
+  font-weight: 400;
+  padding: 16px;
+  text-align: center;
+  color: #222222;
 }
 
-.ExploreContainer  p{
-    font-family: 'jost';
-    font-size: 15px;
-    line-height: 1;
-    color: #00000072;
-    padding-bottom: 16px;
+.ExploreContainer p {
+  font-family: 'jost';
+  font-size: 15px;
+  line-height: 1;
+  color: #00000072;
+  padding-bottom: 16px;
 }
 
-.CardContainerFirst{
-  
+.CardContainerFirst {
+  /* ok this is where am poking */
+  height: auto;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
-  
 }
 
-.card{
-               
+.card {
   height: 100%;
   width: 100%;
   position: relative;
@@ -73,12 +70,12 @@ opacity: 0.79;
 }
 
 .front,
-.back{
+.back {
   padding: 30px;
   height: 100%;
   width: 100%;
   display: flex;
-flex-direction: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Lobster', cursive;
@@ -86,28 +83,28 @@ flex-direction: column;
   position: absolute;
 }
 
-.front{
+.front {
   background: linear-gradient(#08aeea, #2af598);
   z-index: 2;
   backface-visibility: hidden;
 }
 
-.back{
+.back {
   /* background: linear-gradient(#f8da61, #ff5acd); */
-background-image: url(./assets/aboutUsImage.jpg);
-background-repeat: no-repeat;
+  background-image: url(./assets/aboutUsImage.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
-color: white;
+  color: white;
   z-index: 1;
   transform: rotateY(180deg);
 }
 
-.cardContainer:hover .card{
+.cardContainer:hover .card {
   transform: rotateY(180deg);
 }
 
-.cardContainer{
-  width: 350px; 
+.cardContainer {
+  width: 350px;
 
   perspective: 1000px;
   height: 300px;
