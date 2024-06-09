@@ -60,11 +60,13 @@ opacity: 0.79;
   justify-content: center;
   align-items: center;
   padding-bottom: 20px;
+  
 }
 
 .card{
-  height: 300px;
-  width: 350px;
+               
+  height: 100%;
+  width: 100%;
   position: relative;
   transition: all 1s linear;
   transform-style: preserve-3d;
@@ -79,7 +81,6 @@ opacity: 0.79;
 flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-size: ;
   font-family: 'Lobster', cursive;
   border-radius: 10px;
   position: absolute;
@@ -92,15 +93,22 @@ flex-direction: column;
 }
 
 .back{
-  background: linear-gradient(#f8da61, #ff5acd);
+  /* background: linear-gradient(#f8da61, #ff5acd); */
+background-image: url(./assets/aboutUsImage.jpg);
+background-repeat: no-repeat;
+  background-size: cover;
+color: white;
   z-index: 1;
   transform: rotateY(180deg);
 }
 
-.container:hover .card{
+.cardContainer:hover .card{
   transform: rotateY(180deg);
 }
 
-.container{
+.cardContainer{
+  width: 350px; 
+
   perspective: 1000px;
+  height: 300px;
 }
