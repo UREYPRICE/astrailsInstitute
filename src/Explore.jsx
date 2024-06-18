@@ -36,11 +36,12 @@ const Explore = () => {
                             <div className="back">
                             <div className="backOverLay"></div>
                                 <h3>
-                                    1:1 Coaching
+                                Face to Face Coaching
+                                
                                 </h3>
 
                                 <span>-</span>
-                                <p> Remember, a Jedi can feel the Force flowing through him. I'm surprised you had the courage to take the responsibility yourself.</p>
+                                <p> I want to come with you to Alderaan. There's nothing for me here now. I want to learn the ways of the Force.</p>
 
                             </div>
                         </div>

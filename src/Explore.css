@@ -111,6 +111,10 @@
 
 
 
+
+
+
+
 .front {
   background-color:  #FFFFFF96;
   z-index: 2;
@@ -127,7 +131,36 @@
   z-index: 1;
   transform: rotateY(180deg);
   backface-visibility: hidden;
+  position: relative;
 }
+
+
+
+.back > h3 {
+  font-size: 24px;
+  font-family: 'jost';
+  font-weight: 500;
+  padding-bottom: 20px;
+} 
+
+.back > span {
+
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 10px;
+
+}
+
+
+.back > p {
+  color: #FFFFFFCC;
+  font-size: 15px;
+  font-family: 'jost';
+  font-weight: 500;
+  line-height: 1.8;
+  text-align: center;
+} 
+
 
 .cardContainer:hover .card {
   transform: rotateY(180deg);
@@ -138,4 +171,17 @@
 
   perspective: 1000px;
   height: 280px;
+}
+
+
+.backOverLay{
+position: absolute;
+  background-color: #1E1E1E78;
+  border-radius: 24px 24px 24px 24px;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+z-index: -4;
+
 }
